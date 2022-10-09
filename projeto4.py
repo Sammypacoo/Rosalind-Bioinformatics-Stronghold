@@ -10,7 +10,7 @@ import re
 with open("C:\\Users\\user\\Desktop\\rosalind_fib.txt") as f:
     contents = f.read()
     #print(contents)
-
+# Pegar os valores de meses (n) e pares de filhotes formadas a cada geração(k)
 n_k = re.findall(r'[0-9]+',contents)
 n=n_k[0]
 n=int(n)
